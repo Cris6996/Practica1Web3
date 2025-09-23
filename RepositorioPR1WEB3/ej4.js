@@ -22,6 +22,7 @@ function miFuncion(arr) {
   return { mayor: mayor, menor: menor };
 }
 
-
+console.log("Nombre: Orellana Quispe Cristian Andres, CI: 10954812, Carrera: Informatica, Materia: Programacion Web 3, Fecha: 23/9/25")
+console.log("Solucion al problema 4")
 let obj = miFuncion([3, 1, 5, 4, 2]);
 console.log(obj); 
