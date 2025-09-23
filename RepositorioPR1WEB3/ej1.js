@@ -22,11 +22,12 @@ function miFuncion(text) {
 
   return counts;
 }
-
-
+console.log("Nombre: Orellana Quispe Cristian Andres, CI: 10954812, Carrera: Informatica, Materia: Programacion Web 3, Fecha: 23/9/25")
+console.log("Solucion al problema 1")
 let obj = miFuncion("euforia");
 console.log(obj); 
 
+console.log("Ejemplos Extra:")
 console.log(miFuncion("Cristian"));
 console.log(miFuncion("Paralelepipedo"));
 console.log(miFuncion("Barcelona"));
