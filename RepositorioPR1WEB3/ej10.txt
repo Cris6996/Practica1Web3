@@ -1,0 +1,12 @@
+Un callback es una función que se pasa como argumento a otra función para que se ejecute después
+se usa para operaciones simples asíncronas donde no se necesita encadenar muchas acciones.
+
+Manejar eventos (addEventListener)
+Operaciones rápidas en arrays (forEach, map)
+Funciones asíncronas simples que solo devuelven un resultado o error a un callback.
+
+Una promesa representa un valor que estará disponible en el futuro. Puede resolverse (resolve) o fallar (reject).
+se puede usar para operaciones asíncronas complejas o que deben encadenarse.
+
+RESPUESTA: si necesitamos un evento simple, el callback es la mejor opcion pero para operaciones que toman tiempo
+o necesitan encadenarse, usamos una promesa para evitar el callback hell que son varios callbacks anidados 
